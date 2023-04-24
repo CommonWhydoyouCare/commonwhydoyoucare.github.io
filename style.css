@@ -19,6 +19,7 @@ a {
     justify-content: space-around;
     align-items: baseline;
     padding: 10px;
+    color: white;
 }
 
 .topbaritem{
@@ -84,7 +85,7 @@ h1 {
 }
 
 .chgbg {
-    opacity: 0.2;
+    opacity: 0;
     background-color: black;
     position: absolute;
     height: 100px;
