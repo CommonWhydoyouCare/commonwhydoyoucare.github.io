@@ -1,5 +1,6 @@
 <html>
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     
@@ -7,14 +8,9 @@
 <body>
     <div class="page" id="main">
         <div class="topbar">
-            <!--<span class="topbaritem"><a href="#main">HOME</a></span>-->
             <span class="topbaritem"><a href="#cwc2023">CWC 2023</a></span>
             <span class="topbaritem"><a href="#previouseditions">PREVIOUS EDITIONS</a></span>
         </div>
-    
-        <!--<div class="left">
-            CSP World Congress<br />2023
-        </div>-->
     </div>
     
     
@@ -79,12 +75,7 @@
         
     const elementsOp = document.querySelectorAll('.chgbg');
     elementsOp.forEach((element) => {
-            if(offset < 1.5*window.innerHeight){
-                element.style.opacity = (1.5*window.innerHeight-offset)/window.innerHeight;   
-            }
-            else {
-                element.style.opacity = (offset-2.5*window.innerHeight)/window.innerHeight; 
-            }
+         element.style.opacity = (1.5*window.innerHeight-offset)/window.innerHeight;   
     });
     });
     </script>
