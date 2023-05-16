@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    
+    <title>Homepage of the CSP World Congress</title>
 </head>
 <body>
     <div class="page" id="main">
@@ -15,9 +15,12 @@
     
     
     <div class="page" id="cwc2023">
-        <div class="par_bg weissensee"></div>
         <div class="chgbg"></div>
         <h1>CSP World Congress 2023</h1>
+        <div class="par_bg">
+            <div class="weissensee"></div>
+        </div>
+        
         
             <div class="presentation">
             <div class="item">
@@ -34,16 +37,46 @@
             <div class="item">
                 <h2>How to attend?</h2>
                 As every year, participation is by invitation only.
-                However if you did not receive an invitation by email and wish to participate, you can email the organizers.
+                However if you did not receive an invitation by email and wish to participate, you can email the organizers.<br />
             </div>
                 
-            <div class="item">
+            <div class="item half">
                 <h2>Organizers</h2>
                 <ul><li><a href="https://amottet.github.io">Antoine Mottet</a></li><li><a href="https://dmg.tuwien.ac.at/nagy/">Tomáš Nagy</a></li><li><a href="https://dmg.tuwien.ac.at/pinsker/">Michael Pinsker</a></li>
                 </ul>
                 Send an email to cspworldcongress at gmail.com to contact us.
             </div>
             </div>
+        
+            <div class="presentation" id="list_confirmed">
+                <div class="item half">
+                    <h2>List of confirmed participants</h2>
+                    <ul>
+                        <li>Albert Vucaj (TU Wien)</li>
+        <li>Alexey Barsukov (Charles University)</li>
+        <li>Andrei Krokihn (Durham University)</li>
+        <li>Antoine Mottet (Hamburg University of Technology)</li>
+        <li>Barnaby Martin (Durham University)</li>
+        <li>Caterina Viola (Università degli Studi di Catania)</li>
+        <li>Dmitriy Zhuk (Charles University)</li>
+        <li>Jakub Rydval (TU Wien)</li>
+        <li>Kaan Doganay (Charles University)</li>
+        <li>Libor Barto (Charles University)</li>
+        <li>Manuel Bodirsky (TU Dresden)</li>
+        <li>Matěj Konečný (Charles University)</li>
+        <li>Michael Pinsker (Technische Universität Wien)</li>
+        <li>Paolo Marimon (TU Wien)</li>
+        <li>Silvia Butti (University of Oxford)</li>
+        <li>Standa Zivny (University of Oxford)</li>
+        <li>Tamio-vesa Nakajima (Oxford)</li>
+        <li>Tomas Nagy (TU Wien)</li>
+        <li>Žaneta Semanišinová (TU Dresden)</li>
+                    </ul>
+                </div>
+            </div>
+        
+        
+                
         </div>
     
     <div class="page" id="previouseditions">
@@ -68,7 +101,7 @@
     
     window.addEventListener("scroll", function() {
   const offset = window.pageYOffset;
-  const elements = document.querySelectorAll('.par_bg');
+  const elements = document.querySelectorAll('.weissensee');
    elements.forEach((element) => {
             element.style.backgroundPositionY = offset * 0.7 + "px";
         });
