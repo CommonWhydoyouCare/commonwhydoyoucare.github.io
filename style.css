@@ -165,11 +165,12 @@ h1 {
 
 .voels {
     background-image: url("2023/schlern-small.jpg");
+    background-position: 60% 20%;
 }
 
 .kranjska {
     background-image: url("2023/triglav-small.jpg");
-    background-position: top;
+    background-position: 0% 20%;
 }
 
 .molveno {
