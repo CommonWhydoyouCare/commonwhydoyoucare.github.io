@@ -35,13 +35,13 @@ a {
 
 
 #main {
-background-image: url("overlook.png");
+background-image: url("matterhorn.jpg");
 background-attachment: fixed;     
     background-size: cover;
-    height:100vh;
+    height:150vh;
     font-size: 50px;
     font-weight: bolder;
-    color: white;
+    color: black;
 }
 
 #cwc2023{
@@ -55,7 +55,7 @@ background-attachment: fixed;
 h1 {
     margin: 0px;
     height: 100px;
-    color: black;
+    color: white;
     text-align: center;
     vertical-align: middle;
     display:flex;
@@ -68,6 +68,18 @@ h1 {
     width: 50%;
   padding: 10px;
     padding-bottom: 100px;
+}
+
+.weissensee {
+    background-image: url("weissensee.jpeg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -110vh;
+    width: 100%;
+    height: 180vh;
+    z-index: -1;
 }
 
 .par_bg {
@@ -112,7 +124,7 @@ h1 {
 
 
 #previouseditions {
-    height: 90vh;   
+    height: 85vh;   
 }
 
 
@@ -121,7 +133,6 @@ h1 {
     position: relative;
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
     height:100%;
 }
 
@@ -132,8 +143,7 @@ h1 {
     column-gap: 0px;
     padding: 0px;
     position:relative;
-    height:50%;
-    width:50%;
+    height:100%;
 }
 
 .previousft {
@@ -142,14 +152,6 @@ h1 {
     width:100%;
     height:100%;
     z-index: 2;
-}
-
-.previousitm {
-    height: 100%;
-    width: 100%;
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .year {
@@ -164,19 +166,23 @@ h1 {
 }
 
 .voels {
-    background-image: url("2023/schlern-small.jpg");
+    height: 100%;
+    width: 100%;
+    background-image: url("schlern-small.jpg");
+    background-size: 100% 100%;
 }
 
 .kranjska {
-    background-image: url("2023/triglav-small.jpg");
-    background-position: top;
+    background-image: url("triglav-small.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .molveno {
-    background-image: url("2023/molveno-small.jpg");
-}
-
-.weissensee {
-    background-image: url("2023/weissensee-small.png");
+    background-image: url("molveno-small.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
 }
 
