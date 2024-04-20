@@ -169,12 +169,13 @@ h1 {
 }
 
 .kranjska {
-    background-image: url("2023/triglav-small.jpg");
+    background-image: url("2023/triglav.jpeg");
     background-position: 0% 20%;
+    background-size: auto 100%;
 }
 
 .molveno {
-    background-image: url("2023/molveno-small.jpg");
+    background-image: url("2023/molveno.jpg");
 }
 
 .weissensee {
