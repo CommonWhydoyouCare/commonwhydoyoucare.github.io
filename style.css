@@ -162,22 +162,21 @@ h1 {
 }
 
 .voels {
-    background-image: url("2023/schlern-small.jpg");
-    background-position: 60% 20%;
+    background-image: url("2023/schlern-small-32.jpg");
+    
 }
 
 .kranjska {
-    background-image: url("2023/triglav.jpeg");
-    background-position: 0% 20%;
-    background-size: auto 100%;
+    background-image: url("2023/triglav-small-32.jpg");
+ 
 }
 
 .molveno {
-    background-image: url("2023/molveno.jpg");
+    background-image: url("2023/molveno-small-32.jpg");
 }
 
 .weissensee {
-    background-image: url("2023/weissensee-small.png");
+    background-image: url("2023/weissensee-small-32.jpg");
 }
 
 
@@ -187,12 +186,6 @@ h1 {
         width: 100%;
     }   
     .previous {
-        flex-grow: 1;
-        vertical-align: middle;
-        padding-left: 100px;
-        column-gap: 0px;
-        padding: 0px;
-        position:relative;
         height: auto;
         width:100%;
     }
