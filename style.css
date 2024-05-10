@@ -182,3 +182,29 @@ h1 {
     background-image: url("2023/weissensee-small.png");
 }
 
+
+@media (max-width: 1400px) {
+    .shelf {
+        flex-direction: column;
+        width: 100%;
+    }   
+    .previous {
+        flex-grow: 1;
+        vertical-align: middle;
+        padding-left: 100px;
+        column-gap: 0px;
+        padding: 0px;
+        position:relative;
+        height: auto;
+        width:100%;
+    }
+    
+    #main {
+        background-size: auto 100%;
+        height: 50vh;
+        background-position: 2300px -500px;
+    }
+}
+
+
+
