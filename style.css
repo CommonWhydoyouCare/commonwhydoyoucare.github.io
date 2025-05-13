@@ -176,8 +176,12 @@ h1 {
     background-image: url("2023/weissensee-small-32.jpg");
 }
 
-.diesjaehrige  {
-    background-image: url("colfosco.jpg");
+.colfosco {
+    background-image: url("2024/colfosco.jpg");
+}
+
+.thisyear  {
+    background-image: url("overlook.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
